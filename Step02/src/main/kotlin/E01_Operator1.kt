@@ -30,5 +30,17 @@ fun main() {
     var result = e / f
     println(result)
 
+    //형변환을 해도 이 연산에서만 임시로 바뀐다.
+    var result2 = e.toDouble() / f
+    println(result2)
+
+    var result3 = e / f.toDouble()
+    println(result3)
+
+    println("----------")
+    //데이터 입력
+    var input = readln()
+    println("입력한 데이터 : " + input)
+
 
 }
