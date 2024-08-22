@@ -39,8 +39,13 @@ fun main() {
 
     println("----------")
     //데이터 입력
-    var input = readln()
-    println("입력한 데이터 : " + input)
+    var n1 = readln().toInt()
+    var n2 = readln().toInt()
+
+    var r = n1 + n2
+    println(r)
+
+
 
 
 }
