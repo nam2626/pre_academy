@@ -18,4 +18,7 @@ fun main() {
     println(d)
     println(c == d)
 
+    var result = a + 5 < 20
+    println(result)
+
 }
