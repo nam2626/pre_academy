@@ -9,5 +9,22 @@ fun main() {
            60~69: D
            0~59: F
     */
+    print("점수 입력(0~100) : ")
+    var score = readln().toInt()
+
+    if(score >= 90){
+        println("성적 등급 A")
+    }else if(score >= 80){
+        println("성적 등급 B")
+    }else if(score >= 70){
+        println("성적 등급 C")
+    }else if(score >= 60){
+        println("성적 등급 D")
+    }else{
+        println("성적 등급 F")
+    }
+
+
+
 
 }
